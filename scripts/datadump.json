@@ -250,6 +250,36 @@
 		},
 		{
 			"clan": "dragon",
+			"cost": 3,
+			"deck_limit": 3,
+			"glory": 2,
+			"id": "agasha-shunsen",
+			"military": 1,
+			"name": "Agasha Shunsen",
+			"political": 2,
+			"side": "dynasty",
+			"text": "<b>Action:</b> During a conflict, return 1 or more rings you have claimed to the unclaimed ring pool. Choose a character you control – search your conflict deck for an attachment with printed cost equal to or lower than the number of rings returned and attach it to that character. Shuffle.",
+			"traits": [
+				"shugenja",
+				"fire"
+			],
+			"type": "character",
+			"unicity": true,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Felipe Gaona",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_106.jpg",
+					"position": "106",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
+		},
+		{
+			"clan": "dragon",
 			"cost": 5,
 			"deck_limit": 3,
 			"glory": 1,
@@ -1017,29 +1047,32 @@
 			"clan": "neutral",
 			"cost": 2,
 			"deck_limit": 3,
-			"element": null,
-			"fate": null,
 			"glory": 0,
-			"honor": null,
 			"id": "awakened-tsukumogami",
-			"influence_cost": null,
-			"influence_pool": null,
 			"military": 1,
-			"military_bonus": null,
 			"name": "Awakened Tsukumogami",
 			"political": 1,
-			"political_bonus": null,
 			"role_restriction": "void",
 			"side": "dynasty",
-			"strength": null,
-			"strength_bonus": null,
 			"text": "<em>Void</em> role only.\nYou may use the fate on a ring to pay the cost of a conflict card that has a <em>Trait</em> that matches an element of that ring.",
 			"traits": [
 				"spirit",
 				"void"
 			],
 			"type": "character",
-			"unicity": false
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Reiko Murakami",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_112.jpg",
+					"position": "112",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
 		},
 		{
 			"clan": "scorpion",
@@ -1430,6 +1463,36 @@
 					"quantity": 3,
 					"pack": {
 						"id": "the-chrysanthemum-throne"
+					}
+				}
+			]
+		},
+		{
+			"clan": "dragon",
+			"cost": 2,
+			"deck_limit": 3,
+			"id": "being-and-becoming",
+			"influence_cost": 2,
+			"military_bonus": 1,
+			"name": "Being and Becoming",
+			"political_bonus": 1,
+			"role_restriction": "void",
+			"side": "conflict",
+			"text": "<em>Void</em> role only. Attach to a character you control.\n<b>Action:</b> Bow attached character, choose an unclaimed ring – move each fate from that ring to attached character.",
+			"traits": [
+				"condition"
+			],
+			"type": "attachment",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Joyce Maureira",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_115.jpg",
+					"position": "115",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
 					}
 				}
 			]
@@ -5081,6 +5144,35 @@
 			]
 		},
 		{
+			"clan": "unicorn",
+			"deck_limit": 1,
+			"fate": 7,
+			"honor": 11,
+			"id": "hisu-mori-toride-elements-unbound",
+			"influence_pool": 10,
+			"name": "Hisu Mori Toride",
+			"side": "province",
+			"strength_bonus": 1,
+			"text": "<b>Reaction:</b> After you win a [conflict-military] conflict with more participating characters than your opponent, bow this stronghold and sacrifice a <i>(friendly)</i> <em>Cavalry </em>character – you may declare an additional [conflict-military] conflict this phase.",
+			"traits": [
+				"fort"
+			],
+			"type": "stronghold",
+			"unicity": true,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Nele Diel",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_101.jpg",
+					"position": "101",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
+		},
+		{
 			"clan": "lion",
 			"deck_limit": 1,
 			"fate": 7,
@@ -7018,6 +7110,36 @@
 			]
 		},
 		{
+			"clan": "lion",
+			"cost": 4,
+			"deck_limit": 3,
+			"glory": 0,
+			"id": "kitsu-warrior",
+			"military": 2,
+			"name": "Kitsu Warrior",
+			"political": 2,
+			"side": "dynasty",
+			"text": "For each [conflict-military] ring that is claimed, this character gets +2[conflict-military].\nFor each [conflict-political] ring that is claimed, this character gets +2[conflict-political].",
+			"traits": [
+				"bushi",
+				"creature"
+			],
+			"type": "character",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Antonio Jose Manzanedo",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_107.jpg",
+					"position": "107",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
+		},
+		{
 			"clan": "dragon",
 			"cost": 3,
 			"deck_limit": 3,
@@ -7415,6 +7537,31 @@
 			]
 		},
 		{
+			"clan": "crane",
+			"deck_limit": 1,
+			"element": "fire",
+			"id": "magistrate-station",
+			"name": "Magistrate Station",
+			"side": "province",
+			"strength": 3,
+			"text": "<b>Action:</b> Choose an honored character – ready that character.",
+			"traits": [],
+			"type": "province",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "\"We cannot be cruel, but taxes must be paid. The poor harvest has put everyone on edge.\"",
+					"illustrator": "Caravan Studio",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_102.jpg",
+					"position": "102",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
+		},
+		{
 			"clan": "phoenix",
 			"cost": 0,
 			"deck_limit": 3,
@@ -7530,22 +7677,13 @@
 			"clan": "neutral",
 			"cost": 2,
 			"deck_limit": 3,
-			"element": null,
-			"fate": null,
 			"glory": 2,
-			"honor": null,
 			"id": "mantis-tenkinja",
-			"influence_cost": null,
-			"influence_pool": null,
 			"military": 1,
-			"military_bonus": null,
 			"name": "Mantis Tenkinja",
 			"political": 2,
-			"political_bonus": null,
 			"role_restriction": "water",
 			"side": "dynasty",
-			"strength": null,
-			"strength_bonus": null,
 			"text": "<em>Water</em> role only.\n<b>Interrupt:</b> When you play an event, lose 1 honor – reduce the cost of that event by 1.",
 			"traits": [
 				"shugenja",
@@ -7553,7 +7691,47 @@
 				"mantis-clan"
 			],
 			"type": "character",
-			"unicity": false
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "\"None exist in the whole of the Emerald Empire who are as talented as they.\" - Yoritomo",
+					"illustrator": "Eli Ring",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_111.jpg",
+					"position": "111",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
+		},
+		{
+			"clan": "dragon",
+			"cost": 0,
+			"deck_limit": 3,
+			"id": "mantra-of-earth",
+			"influence_cost": 2,
+			"name": "Mantra of Earth",
+			"side": "conflict",
+			"text": "<b>Reaction:</b> After an opponent declares an [element-earth] conflict, choose a <em>Monk</em> character or a character with a <em>Monk</em> attachment – until the end of the conflict, opponents&rsquo; card effects cannot target that character. Draw 1 card.",
+			"traits": [
+				"kiho",
+				"earth"
+			],
+			"type": "event",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Derek D Edgell",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_116.jpg",
+					"position": "116",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
 		},
 		{
 			"clan": "dragon",
@@ -8111,22 +8289,12 @@
 			"clan": "unicorn",
 			"cost": 5,
 			"deck_limit": 3,
-			"element": null,
-			"fate": null,
 			"glory": 2,
-			"honor": null,
 			"id": "minami-kaze-regulars",
-			"influence_cost": null,
-			"influence_pool": null,
 			"military": 6,
-			"military_bonus": null,
 			"name": "Minami Kaze Regulars",
 			"political": 3,
-			"political_bonus": null,
-			"role_restriction": null,
 			"side": "dynasty",
-			"strength": null,
-			"strength_bonus": null,
 			"text": "No attachments except <em>Weapon</em>.\n<b>Reaction:</b> After this character wins a conflict in which you have more participating characters than your opponent – gain 1 fate and draw 1 card.",
 			"traits": [
 				"bushi",
@@ -8134,7 +8302,19 @@
 				"cavalry"
 			],
 			"type": "character",
-			"unicity": false
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Eli Ring",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_110.jpg",
+					"position": "110",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
 		},
 		{
 			"clan": "dragon",
@@ -9321,6 +9501,35 @@
 			]
 		},
 		{
+			"clan": "crab",
+			"cost": 1,
+			"deck_limit": 3,
+			"id": "pragmatism",
+			"influence_cost": 1,
+			"military_bonus": 1,
+			"name": "Pragmatism",
+			"political_bonus": 1,
+			"side": "conflict",
+			"text": "Attach to a character you control.\nWhile you are less honorable than an opponent, attached character gets +1[conflict-military], +1[conflict-political], and gains: &ldquo;This character cannot be honored or dishonored.&rdquo;",
+			"traits": [
+				"condition"
+			],
+			"type": "attachment",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Arif Wijaya",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_113.jpg",
+					"position": "113",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
+		},
+		{
 			"clan": "unicorn",
 			"cost": 0,
 			"deck_limit": 3,
@@ -9506,6 +9715,36 @@
 			]
 		},
 		{
+			"clan": "phoenix",
+			"cost": 2,
+			"deck_limit": 3,
+			"glory": 1,
+			"id": "reader-of-omens",
+			"military": 2,
+			"name": "Reader of Omens",
+			"political": 0,
+			"side": "dynasty",
+			"text": "This character gets +3[conflict-political] while you have claimed the [element-air] or [element-void] ring.",
+			"traits": [
+				"shugenja",
+				"void"
+			],
+			"type": "character",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "\"I have never seen birds this agressive before...\"",
+					"illustrator": "Lin Hsiang",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_108.jpg",
+					"position": "108",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
+		},
+		{
 			"clan": "lion",
 			"cost": 0,
 			"deck_limit": 3,
@@ -9551,6 +9790,35 @@
 					"quantity": 1,
 					"pack": {
 						"id": "core"
+					}
+				}
+			]
+		},
+		{
+			"clan": "scorpion",
+			"cost": 3,
+			"deck_limit": 3,
+			"glory": 1,
+			"id": "reclusive-zokujin",
+			"military": 3,
+			"name": "Reclusive Zokujin",
+			"political": 1,
+			"side": "dynasty",
+			"text": "During [element-earth] conflicts, this character gains covert and is immune to enemy card effects.",
+			"traits": [
+				"creature"
+			],
+			"type": "character",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "To see a Zokujin is a sign of great significance-the excitement of a myth sighed, and the dread of what drove it to the surface.",
+					"illustrator": "Diana Martinez",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_109.jpg",
+					"position": "109",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
 					}
 				}
 			]
@@ -9605,6 +9873,36 @@
 					"quantity": 1,
 					"pack": {
 						"id": "core"
+					}
+				}
+			]
+		},
+		{
+			"clan": "lion",
+			"cost": 2,
+			"deck_limit": 3,
+			"id": "restored-heirloom",
+			"influence_cost": 1,
+			"military_bonus": 3,
+			"name": "Restored Heirloom",
+			"political_bonus": 0,
+			"role_restriction": "water",
+			"side": "conflict",
+			"text": "<em>Water</em><b> </b>role only. Restricted.\n<b>Interrupt:</b> When you would resolve the [element-water] ring effect, choose a character you control – instead of resolving normal ring effects, put this attachment into play from your hand or conflict discard pile, attached to that character.",
+			"traits": [
+				"weapon"
+			],
+			"type": "attachment",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Hai Hoang",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_117.jpg",
+					"position": "117",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
 					}
 				}
 			]
@@ -9690,6 +9988,37 @@
 					"quantity": 2,
 					"pack": {
 						"id": "core"
+					}
+				}
+			]
+		},
+		{
+			"clan": "phoenix",
+			"cost": 3,
+			"deck_limit": 3,
+			"glory": 1,
+			"id": "roving-michibiku",
+			"influence_cost": 2,
+			"military": 2,
+			"name": "Roving Michibiku",
+			"political": 2,
+			"side": "conflict",
+			"text": "<b>Reaction:</b> After this character wins a conflict – take a ring from the defending player&rsquo;s claimed ring pool.",
+			"traits": [
+				"monk",
+				"scholar"
+			],
+			"type": "character",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "\"The truth of the world can be found sitting at the riverside. The river never begins, the river never ends. All of life is like the river, lesson never begin and lessons never end.\" - Tao of Shinsei",
+					"illustrator": "Nele Diel",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_118.jpg",
+					"position": "118",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
 					}
 				}
 			]
@@ -11471,6 +11800,31 @@
 			]
 		},
 		{
+			"clan": "crab",
+			"cost": 0,
+			"deck_limit": 3,
+			"id": "specialized-defenses",
+			"influence_cost": 1,
+			"name": "Specialized Defenses",
+			"side": "conflict",
+			"text": "<em>Earth</em><b> </b>role only.\n<b>Action:</b> During a conflict, if the attacked province has an element that matches the contested ring or a ring in your claimed ring pool – double that province&rsquo;s strength until the end of the conflict.",
+			"traits": [],
+			"type": "event",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Diana Martinez",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_114.jpg",
+					"position": "114",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
+		},
+		{
 			"clan": "neutral",
 			"cost": 0,
 			"deck_limit": 3,
@@ -12043,6 +12397,31 @@
 			]
 		},
 		{
+			"clan": "phoenix",
+			"cost": 0,
+			"deck_limit": 3,
+			"id": "taryu-jiai",
+			"influence_cost": 1,
+			"name": "Taryu-Jiai",
+			"side": "conflict",
+			"text": "<b>Action:</b> During a conflict, choose a <em>Shugenja</em> character you control and a <em>Shugenja</em> character controlled by an opponent – your character challenges your opponent&rsquo;s character to a glory duel. The  winner of the duel&lsquo;s controller resolves a ring effect of his or her choice as if he or she was the attacking player.",
+			"traits": [],
+			"type": "event",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Eli Ring",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_119.jpg",
+					"position": "119",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
+		},
+		{
 			"clan": "neutral",
 			"cost": 1,
 			"deck_limit": 3,
@@ -12151,6 +12530,37 @@
 					"quantity": 3,
 					"pack": {
 						"id": "tears-of-amaterasu"
+					}
+				}
+			]
+		},
+		{
+			"clan": "crane",
+			"cost": 5,
+			"deck_limit": 3,
+			"glory": 2,
+			"id": "tengu-sensei",
+			"military": 4,
+			"name": "Tengu Sensei",
+			"political": 2,
+			"side": "dynasty",
+			"text": "Covert.\n<b>Reaction:</b> After this character chooses a character using covert – that character cannot be declared as an attacker this phase.",
+			"traits": [
+				"bushi",
+				"creature",
+				"duelist"
+			],
+			"type": "character",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Diana Martinez",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_105.jpg",
+					"position": "105",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
 					}
 				}
 			]
@@ -12785,22 +13195,11 @@
 			"clan": "unicorn",
 			"cost": 0,
 			"deck_limit": 3,
-			"element": null,
-			"fate": null,
-			"glory": null,
-			"honor": null,
 			"id": "unleash-the-djinn",
 			"influence_cost": 3,
-			"influence_pool": null,
-			"military": null,
-			"military_bonus": null,
 			"name": "Unleash the Djinn",
-			"political": null,
-			"political_bonus": null,
 			"role_restriction": "fire",
 			"side": "conflict",
-			"strength": null,
-			"strength_bonus": null,
 			"text": "<em>Fire</em> role only.\n<b>Action:</b> During a conflict, lose 3 honor – set the [conflict-military] and [conflict-political] skill of each participating character to 3 until the end of the conflict.",
 			"traits": [
 				"spell",
@@ -12808,7 +13207,19 @@
 				"meishodo"
 			],
 			"type": "event",
-			"unicity": false
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "",
+					"illustrator": "Calvin Chua",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_120.jpg",
+					"position": "120",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
 		},
 		{
 			"clan": "neutral",
@@ -13586,6 +13997,30 @@
 			]
 		},
 		{
+			"clan": "scorpion",
+			"deck_limit": 1,
+			"element": "water",
+			"id": "web-of-lies",
+			"name": "Web of Lies",
+			"side": "province",
+			"text": "X is equal to twice the bid on your honor dial.",
+			"traits": [],
+			"type": "province",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "\"You're sure this is no the home of Bayushi Shuzo?\"",
+					"illustrator": "Hai Hoang",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_103.jpg",
+					"position": "103",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
+					}
+				}
+			]
+		},
+		{
 			"clan": "phoenix",
 			"cost": 0,
 			"deck_limit": 3,
@@ -13748,6 +14183,35 @@
 					"quantity": 3,
 					"pack": {
 						"id": "meditations-on-the-ephemeral"
+					}
+				}
+			]
+		},
+		{
+			"clan": "crab",
+			"cost": 4,
+			"deck_limit": 3,
+			"glory": 2,
+			"id": "yasuki-broker",
+			"military": 2,
+			"name": "Yasuki Broker",
+			"political": 3,
+			"side": "dynasty",
+			"text": "While this character is participating in a conflict, each character you control gains courtesy and sincerity.",
+			"traits": [
+				"courtier"
+			],
+			"type": "character",
+			"unicity": false,
+			"pack_cards": [
+				{
+					"flavor": "\"We must make do with what little the Empire can spare.\"",
+					"illustrator": "Derek D Edgell",
+					"image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C14_104.jpg",
+					"position": "104",
+					"quantity": 3,
+					"pack": {
+						"id": "elements-unbound"
 					}
 				}
 			]
@@ -14004,6 +14468,6 @@
 			]
 		}
 	],
-	"size": 481,
+	"size": 497,
 	"success": true
 }
