@@ -45,14 +45,14 @@ function createJSON(cardData) {
     data.influence_cost = (type !== 'stronghold' && cardData.influence !== '') ? parseInt(cardData.influence) : null;
     data.influence_pool = type === 'stronghold' ? parseInt(cardData.influence) : null;
     data.military = (type !== 'attachment' && cardData.military !== '') ? cardData.militarynumeric : null;
-    data.military_bonus = (type === 'attachment' && cardData.miiitary !== '') ? cardData.militarynumeric : null;
+    data.military_bonus = (type === 'attachment' && cardData.miiitary !== '') ? cardData.military : null;
     data.name = cardData.name;
     data.political = (type !== 'attachment' && cardData.political !== '') ? cardData.politicalnumeric : null;
-    data.political_bonus = (type === 'attachment' && cardData.political !== '') ? cardData.politicalnumeric : null;
+    data.political_bonus = (type === 'attachment' && cardData.political !== '') ? cardData.political : null;
     data.role_restriction = cardData.deckrestrictions ? cardData.deckrestrictions.split(' ')[0].toLowerCase() : null;
     data.side = (type === 'stronghold' || type === 'province') ? 'province' : cardData.deck.toLowerCase();
     data.strength = type === 'province' ? parseInt(cardData.strength) : null;
-    data.strength_bonus = (type === 'stronghold' || type === 'holding') ? parseInt(cardData.strength) : null;
+    data.strength_bonus = (type === 'stronghold' || type === 'holding') ? cardData.strength : null;
     data.text = text;
     data.traits = traits;
     data.type = type;
