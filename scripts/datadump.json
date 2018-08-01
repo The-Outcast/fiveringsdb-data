@@ -1052,6 +1052,7 @@
 			"military": 1,
 			"name": "Awakened Tsukumogami",
 			"political": 1,
+			"role_restriction": "void",
 			"side": "dynasty",
 			"text": "<em>Void</em> role only.\nYou may use the fate on a ring to pay the cost of a conflict card that has a <em>Trait</em> that matches an element of that ring.",
 			"traits": [
@@ -7681,6 +7682,7 @@
 			"military": 1,
 			"name": "Mantis Tenkinja",
 			"political": 2,
+			"role_restriction": "water",
 			"side": "dynasty",
 			"text": "<em>Water</em> role only.\n<b>Interrupt:</b> When you play an event, lose 1 honor – reduce the cost of that event by 1.",
 			"traits": [
