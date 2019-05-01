@@ -1,18 +1,18 @@
 [
     {
-        "clan": "phoenix",
-        "cost": 0,
+        "clan": "neutral",
+        "cost": 1,
         "deck_limit": 3,
         "element": null,
         "fate": null,
         "glory": null,
         "honor": null,
-        "id": "oracle-of-stone",
-        "influence_cost": 2,
+        "id": "overhear",
+        "influence_cost": 0,
         "influence_pool": null,
         "military": null,
         "military_bonus": null,
-        "name": "Oracle of Stone",
+        "name": "Overhear",
         "name_extra": null,
         "political": null,
         "political_bonus": null,
@@ -20,11 +20,8 @@
         "side": "conflict",
         "strength": null,
         "strength_bonus": null,
-        "text": "<b>Action:</b> Each player draws 2 cards. Then, each player discards 2 cards from his or her hand.\n<i>Errata from RRG v1.7</i>",
-        "traits": [
-            "spell",
-            "earth"
-        ],
+        "text": "<b>Action:</b> During a [conflict-political] conflict - your opponent reveals a random card from his or her hand and puts it on top of his or her conflict deck. If you control a participating <em>Courtier</em> character, you may give your opponent 1 honor to resolve this ability twice.",
+        "traits": [],
         "type": "event",
         "unicity": false
     }
