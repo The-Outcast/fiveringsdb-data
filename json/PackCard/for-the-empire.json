@@ -1,10 +1,34 @@
 [
     {
+        "card_id": "toshi-ranbo",
+        "flavor": "",
+        "illustrator": "Chris Ostrowski",
+        "image_url": "",
+        "position": "1",
+        "quantity": 1
+    },
+    {
         "card_id": "fifth-tower-watch",
         "flavor": "",
         "illustrator": "Leanna Crossan",
         "image_url": "",
         "position": "5",
+        "quantity": 3
+    },
+    {
+        "card_id": "sententious-poet",
+        "flavor": "\"Please allow me to finish your composition. Your words inspire me towards the battle chants of the Moto.\"",
+        "illustrator": "Joyce Maureira",
+        "image_url": "",
+        "position": "6",
+        "quantity": 3
+    },
+    {
+        "card_id": "esteemed-tea-house",
+        "flavor": "",
+        "illustrator": "Leanna Crossan",
+        "image_url": "",
+        "position": "7",
         "quantity": 3
     },
     {
