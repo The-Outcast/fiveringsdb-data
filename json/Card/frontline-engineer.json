@@ -1,34 +1,33 @@
 [
     {
         "allowed_clans": [
-            "scorpion"
+            "crab"
         ],
-        "clan": "scorpion",
-        "cost": 3,
+        "clan": "crab",
+        "cost": 4,
         "deck_limit": 3,
         "element": null,
         "fate": null,
-        "glory": 1,
+        "glory": 0,
         "honor": null,
-        "id": "cunning-magistrate",
+        "id": "frontline-engineer",
         "influence_cost": null,
         "influence_pool": null,
         "is_restricted": false,
-        "military": "2",
+        "military": "4",
         "military_bonus": null,
-        "name": "Cunning Magistrate",
+        "name": "Frontline Engineer",
         "name_extra": null,
         "political": "2",
         "political_bonus": null,
         "role_restriction": null,
-        "side": "conflict",
+        "side": "dynasty",
         "strength": null,
         "strength_bonus": null,
-        "text": "While this character is participating in a conflict, each other character that is dishonored does not count its skill toward the resolution of this conflict.",
+        "text": "This character gets +1 glory for each holding in play.\n<b>Action:</b> During a conflict in which this character is defending - search the top 5 cards of your dynasty deck for a holding and put it into play in the attacked province, discarding each other card in that province. Shuffle.",
         "traits": [
             "bushi",
-            "imperial",
-            "magistrate"
+            "engineer"
         ],
         "type": "character",
         "unicity": false
