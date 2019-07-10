@@ -1,22 +1,22 @@
 [
     {
         "allowed_clans": [
-            "dragon"
+            "crab"
         ],
-        "clan": "dragon",
+        "clan": "crab",
         "cost": 3,
         "deck_limit": 3,
         "element": null,
         "fate": null,
-        "glory": 1,
+        "glory": 2,
         "honor": null,
-        "id": "kitsuki-yuikimi",
+        "id": "yasuki-hatsu",
         "influence_cost": null,
         "influence_pool": null,
         "is_restricted": false,
-        "military": "3",
+        "military": "1",
         "military_bonus": null,
-        "name": "Kitsuki Yuikimi",
+        "name": "Yasuki Hatsu",
         "name_extra": null,
         "political": "3",
         "political_bonus": null,
@@ -24,10 +24,9 @@
         "side": "dynasty",
         "strength": null,
         "strength_bonus": null,
-        "text": "<b>Reaction:</b> After you gain a fate from a ring during a conflict in which this character is participating - this character cannot be chosen as the target of your opponent's triggered abilities until the end of the conflict.",
+        "text": "<b>Action:</b> During a conflict in which this character is participating, if you are less honorable than your opponent - search the top 5 cards of your conflict deck for an attachment, reveal it, and add it to your hand. Shuffle.",
         "traits": [
-            "bushi",
-            "champion"
+            "courtier"
         ],
         "type": "character",
         "unicity": true

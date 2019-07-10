@@ -1,35 +1,34 @@
 [
     {
         "allowed_clans": [
-            "dragon"
+            "crab"
         ],
-        "clan": "dragon",
-        "cost": 3,
+        "clan": "crab",
+        "cost": 1,
         "deck_limit": 3,
         "element": null,
         "fate": null,
         "glory": 1,
         "honor": null,
-        "id": "kitsuki-yuikimi",
+        "id": "gallant-quartermaster",
         "influence_cost": null,
         "influence_pool": null,
         "is_restricted": false,
-        "military": "3",
+        "military": "0",
         "military_bonus": null,
-        "name": "Kitsuki Yuikimi",
+        "name": "Gallant Quartermaster",
         "name_extra": null,
-        "political": "3",
+        "political": "1",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",
         "strength": null,
         "strength_bonus": null,
-        "text": "<b>Reaction:</b> After you gain a fate from a ring during a conflict in which this character is participating - this character cannot be chosen as the target of your opponent's triggered abilities until the end of the conflict.",
+        "text": "<b>Interrupt:</b> When this character is sacrificed - gain 2 fate.",
         "traits": [
-            "bushi",
-            "champion"
+            "courtier"
         ],
         "type": "character",
-        "unicity": true
+        "unicity": false
     }
 ]
