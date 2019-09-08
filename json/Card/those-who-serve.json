@@ -9,32 +9,32 @@
             "scorpion",
             "unicorn"
         ],
-        "clan": "dragon",
-        "cost": 2,
+        "clan": "neutral",
+        "cost": 1,
         "deck_limit": 3,
         "element": null,
         "fate": null,
         "glory": null,
         "honor": null,
-        "id": "mirumoto-daisho",
-        "influence_cost": 2,
+        "id": "those-who-serve",
+        "influence_cost": 0,
         "influence_pool": null,
         "is_restricted": false,
         "military": null,
-        "military_bonus": "+2",
-        "name": "Mirumoto Daishō",
+        "military_bonus": null,
+        "name": "Those Who Serve",
         "name_extra": null,
         "political": null,
-        "political_bonus": "+2",
+        "political_bonus": null,
         "role_restriction": null,
         "side": "conflict",
         "strength": null,
         "strength_bonus": null,
-        "text": "Restricted.  Attached character may not have other restricted attachments.\nWhile attached character is dueling, your opponent cannot bid 1 or 5.",
+        "text": "Limited. <i>(No more than one limited card can be played by each player each round.)</i>\n<b>Action:</b> During the dynasty phase - reduce the cost for each character you play this phase by 1 <i>(to a minimum of 0)</i>.",
         "traits": [
-            "weapon"
+            "philosophy"
         ],
-        "type": "attachment",
+        "type": "event",
         "unicity": false
     }
 ]

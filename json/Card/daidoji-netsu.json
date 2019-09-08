@@ -1,33 +1,33 @@
 [
     {
         "allowed_clans": [
-            "phoenix"
+            "crane"
         ],
-        "clan": "phoenix",
-        "cost": 4,
+        "clan": "crane",
+        "cost": 2,
         "deck_limit": 3,
         "element": null,
         "fate": null,
-        "glory": 2,
+        "glory": 1,
         "honor": null,
-        "id": "isawa-heiko",
+        "id": "daidoji-netsu",
         "influence_cost": null,
         "influence_pool": null,
         "is_restricted": false,
-        "military": "0",
+        "military": "2",
         "military_bonus": null,
-        "name": "Isawa Heiko",
+        "name": "Daidoji Netsu",
         "name_extra": null,
-        "political": "5",
+        "political": "1",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",
         "strength": null,
         "strength_bonus": null,
-        "text": "<b>Reaction:</b> After you play a <em>Water</em> card during a conflict, choose a participating character - swap the base [conflict-military] and [conflict-political] stats of that character until the end of the phase.",
+        "text": "Other character cannot leave play during the conflict phase, except by the effects of keywords.",
         "traits": [
-            "shugenja",
-            "water"
+            "bushi",
+            "commander"
         ],
         "type": "character",
         "unicity": true
